@@ -1,2 +1,2 @@
 # Shoes-store
-My full function Shoesstore
+My full function Shoes-store
