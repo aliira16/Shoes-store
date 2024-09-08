@@ -1,0 +1,74 @@
+[
+    {
+        "id":1,
+        "name":"Air Jordan 1",
+        "price":200,
+        "image":"imgs/product/Air_Jordan_1.1-removebg-preview.png"
+    },
+    {
+        "id":2,
+        "name":"Air Jordan 1",
+        "price":200,
+        "image":"imgs/product/Air_Jordan_1.2-removebg-preview.png"
+    },
+    {
+        "id":3,
+        "name":"Air Jordan 1",
+        "price":200,
+        "image":"imgs/product/Air_Jordan_1.3-removebg-preview.png"
+    },
+    {
+        "id":4,
+        "name":"Air Jordan low",
+        "price":180,
+        "image":"imgs/product/Air_Jordan_2.2-removebg-preview.png"
+    },
+    {
+        "id":5,
+        "name":"Air Jordan low",
+        "price":230,
+        "image":"imgs/product/Air_Jordan_2.3-removebg-preview.png"
+    },
+    {
+        "id":6,
+        "name":"Air Jordan low",
+        "price":230,
+        "image":"imgs/product/Air_Jordan_2.4-removebg-preview.png"
+    },
+    {
+        "id":7,
+        "name":"Air Jordan low",
+        "price":250,
+        "image":"imgs/product/Air_Jordan_2.5-removebg-preview.png"
+    },
+    {
+        "id":8,
+        "name":"Air Jordan 4",
+        "price":250,
+        "image":"imgs/product/Air_Jordan_3.1-removebg-preview.png"
+    },
+    {
+        "id":8,
+        "name":"Air Jordan 4",
+        "price":200,
+        "image":"imgs/product/Air_Jordan_3.2-removebg-preview.png"
+    },
+    {
+        "id":10,
+        "name":"Air Jordan 4",
+        "price":230,
+        "image":"imgs/product/Air_Jordan_3.3-removebg-preview.png"
+    },
+    {
+        "id":11,
+        "name":"Air Jordan 4",
+        "price":200,
+        "image":"imgs/product/Air_Jordan_3.4-removebg-preview.png"
+    },
+    {
+        "id":12,
+        "name":"Air Force 1",
+        "price":200,
+        "image":"imgs/product/Air_Jordan_4-removebg-preview.png"
+    }
+]

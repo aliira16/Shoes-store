@@ -1,0 +1,192 @@
+body {
+    font-family: "Matemasie", sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 900px;
+    max-width: 90vw;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    transition: transform 0.5s;
+}
+
+.container .title{
+    font-size: 30px;
+}
+
+svg {
+    width: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header .brad{
+    background-image: url(imgs/brand-logo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+header .icon-cart {
+    position: relative;
+}
+
+header .icon-cart span {
+    display: flex;
+    height: 30px;
+    width: 30px;
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    right: -20px;
+}
+
+.listProduct {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    filter: drop-shadow(1px 0px 10px black);
+}
+
+.listProduct .item{
+    background-color: #eeeee6;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.listProduct .item img{
+    width: 90%;
+    filter: drop-shadow(10px 20px 5px grey);
+    background-color: transparent;
+}
+
+.listProduct .item h2{
+    font-size: large;
+    font-weight: 500;
+}
+
+.listProduct .item .price{
+    letter-spacing: 9px;
+    font-size: small;
+}
+
+.listProduct .item .addCart{
+    background-color: #353432;
+    color: #eee;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.cartTab{
+    display: grid;
+    width: 400px;
+    background-color: #353432;
+    color: #eee;
+    position: fixed;
+    inset: 0 -400px 0 auto;
+    grid-template-rows: 70px 1fr 70px;
+    transition: 0.5s;
+}
+
+body.showCart .cartTab{
+    inset: 0 0 0 auto;
+}
+
+body.showCart .container{
+    transform: translateX(-250px);
+}
+
+.cartTab h1{
+    padding: 10px;
+    margin: 0;
+    font-weight: 300px;
+}
+
+.cartTab .btn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cartTab .btn button{
+    border: none;
+    background-color: orange;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 500;
+    padding: 20px 5px;
+}
+
+.cartTab .btn .close{
+    background-color: #eee;
+}
+
+.cartTab .listCart{
+    font-family: "Poppins", sans-serif;
+}
+
+.cartTab .listCart .item{
+    display: grid;
+    grid-template-columns: 70px 150px 50px 1fr;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.cartTab .listCart .item img{
+    width: 100%;
+}
+
+.listCart .quantity span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    color: #353432;
+    background-color: #eee;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.listCart .quantity span:nth-child(2){
+    background-color: transparent;
+    color: #eee;
+}
+
+.listCart .item:nth-child(even){
+    background-color: rgba(255, 255, 255, 0.475);
+}
+
+.listCart{
+    overflow: auto;
+}
+
+.listCart::-webkit-scrollbar{
+    width: 0;
+}
+
+@media screen and (max-width: 992px) { 
+    .listProduct{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 425px) { 
+    .listProduct{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
